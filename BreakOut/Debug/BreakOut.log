@@ -1,2 +1,6 @@
 ﻿  Game.cpp
+d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(42): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
+d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(43): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
+d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(44): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
+d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(45): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
   BreakOut.vcxproj -> D:\ProjectOfStudy\Computer Graph\OpenGL_BreakOut\Debug\BreakOut.exe

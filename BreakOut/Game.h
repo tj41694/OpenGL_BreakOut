@@ -3,6 +3,8 @@
 
 #include <glad\glad.h>
 #include <GLFW\glfw3.h>
+#include <vector>
+#include "game_level.h"
 
 // Represents the current state of the game
 enum GameState {
@@ -18,6 +20,8 @@ public:
 	GameState	State;
 	GLboolean	Keys[1024];
 	GLuint		Width, Height;
+	std::vector<GameLevel> Levels;
+	GLuint                 Level;
 	// Constructor/Destructor
 	Game(GLuint width, GLuint height);
 	~Game();
