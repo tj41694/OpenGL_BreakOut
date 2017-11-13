@@ -39,6 +39,9 @@
     <ClInclude Include="ball_object.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="particle_generator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -69,6 +72,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="ball_object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="particle_generator.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
