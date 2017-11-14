@@ -1,10 +1,11 @@
 ﻿  Game.cpp
-d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(54): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
-d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(55): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
-d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(56): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
-d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(57): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
-d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(269): warning C4244: “参数”: 从“float”转换到“GLuint”，可能丢失数据
-d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(271): warning C4244: “参数”: 从“float”转换到“GLuint”，可能丢失数据
-d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(273): warning C4244: “参数”: 从“float”转换到“GLuint”，可能丢失数据
-d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(275): warning C4244: “参数”: 从“float”转换到“GLuint”，可能丢失数据
+d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(68): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
+d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(69): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
+d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(70): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
+d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(71): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
+d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(168): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(325): warning C4244: “参数”: 从“float”转换到“GLuint”，可能丢失数据
+d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(327): warning C4244: “参数”: 从“float”转换到“GLuint”，可能丢失数据
+d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(329): warning C4244: “参数”: 从“float”转换到“GLuint”，可能丢失数据
+d:\projectofstudy\computer graph\opengl_breakout\breakout\game.cpp(331): warning C4244: “参数”: 从“float”转换到“GLuint”，可能丢失数据
   BreakOut.vcxproj -> D:\ProjectOfStudy\Computer Graph\OpenGL_BreakOut\Debug\BreakOut.exe

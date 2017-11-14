@@ -7,6 +7,8 @@
 #include "game_level.h"
 #include "ball_object.h"
 #include <tuple>
+#include "powerup.h"
+#include <algorithm>
 
 
 // Represents the current state of the game
@@ -25,6 +27,15 @@ enum Direction {
 
 typedef std::tuple<GLboolean, Direction, glm::vec2> Collision;
 
+// Initial size of the player paddle
+const glm::vec2 PLAYER_SIZE(100, 20);
+// Initial velocity of the player paddle
+const GLfloat PLAYER_VELOCITY(500.0f);
+// Initial velocity of the Ball
+const glm::vec2 INITIAL_BALL_VELOCITY(100.0f, -350.0f);
+// Radius of the ball object
+const GLfloat BALL_RADIUS = 12.5f;
+
 class Game
 {
 public:
@@ -34,6 +45,7 @@ public:
 	GLuint		Width, Height;
 	std::vector<GameLevel> Levels;
 	GLuint                 Level;
+	std::vector<PowerUp>  PowerUps;
 	// Constructor/Destructor
 	Game(GLuint width, GLuint height);
 	~Game();
@@ -43,14 +55,13 @@ public:
 	void ProcessInput(GLfloat dt);
 	void Update(GLfloat dt);
 	void Render();
-	//collision detection
 	void DoCollisions();
-	Collision CheckCollision(GameObject &one, GameObject &two);
-	Collision CheckCollision(BallObject &one, GameObject &two);
-	Direction VectorDirection(glm::vec2 target);
-	//
+	//Reset
 	void ResetPlayer();
 	void ResetLevel();
+	//powerup fc
+	void SpawnPowerUps(GameObject &block);
+	void UpdatePowerUps(GLfloat dt);
 };
 
 #endif
