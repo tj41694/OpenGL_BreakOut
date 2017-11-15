@@ -80,7 +80,7 @@
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;irrKlang.lib;freetype271.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -124,10 +124,12 @@
     <ClInclude Include="particle_generator.h" />
     <ClInclude Include="post_processor.h" />
     <ClInclude Include="powerup.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="resource_manager.h" />
     <ClInclude Include="shader.h" />
     <ClInclude Include="SpriteRenderer.h" />
     <ClInclude Include="texture.h" />
+    <ClInclude Include="text_renderer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ball_object.cpp" />
@@ -142,6 +144,7 @@
     <ClCompile Include="shader.cpp" />
     <ClCompile Include="SpriteRenderer.cpp" />
     <ClCompile Include="texture.cpp" />
+    <ClCompile Include="text_renderer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
