@@ -22,3 +22,7 @@
 * 完善的游戏符文buff机制。
 * 利用跨平台*irrKlang*库让我们能听见游戏声音了。
 * 利用*freetype*库，通过预渲染字形的RED纹理至TextureBuffer，将RED纹理在fragmentshader中视着ALPHA纹理，让我们的游戏实现了文字（ASSIC码）渲染。当然，通过与渲染的方式，挺适合ASSIC码的，但对于有上万字符的中文，来说好不好实现我还没有试验（估计没戏）。
+
+## 预览 ##
+
+![](https://learnopengl.com/img/in-practice/breakout/cover.png)
