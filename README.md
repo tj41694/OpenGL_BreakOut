@@ -5,7 +5,7 @@
 > 这个 小游戏——基于OpenGL 是我个人学习C++和OpengGL的一个小示例，在此非常感谢 [Joey de Vries](https://joeydevries.com/#home)提供的[OpengGL学习教程](https://learnopengl.com/)。
 
 ## 文件目录 ##
-* 依赖的库目录在[这里](https://github.com/tj41694/OpenGL/tree/master/MyLib)，是我学习OpenGL的源码和Demo仓库里。
+* 依赖的库目录在我学习OpenGL的源码和Demo[仓库中](https://github.com/tj41694/OpenGL/tree/master/MyLib)。
 * ./Release 文件夹是我编译好的游戏以及所有资源文件，可以直接下载下来运行，当然你的显卡可能必须要支持OpenGL3.3及以上。
 * ./BreakOut 是游戏的源码文件夹
 
