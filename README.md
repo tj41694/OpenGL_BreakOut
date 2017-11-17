@@ -6,7 +6,7 @@
 
 ## 文件目录 ##
 * 依赖的库目录在我学习OpenGL的源码和Demo[仓库中](https://github.com/tj41694/OpenGL/tree/master/MyLib)。
-* ./Release 文件夹是我编译好的游戏以及所有资源文件，可以直接下载下来运行，当然你的显卡可能必须要支持OpenGL3.3及以上。
+* ./Release 文件夹是我编译好的游戏以及所有资源文件，下载后应该可以直接运行，当然显卡可能必须要支持OpenGL3.3及以上。
 * ./BreakOut 是游戏的源码文件夹
 
 ## 环境 ##
@@ -21,7 +21,7 @@
 * 利用帧缓存以及核技术（在fragmentshader中的图像卷积算法（边缘检测））实现漂亮的后期效果。如屏幕震动，反色，chaos等。
 * 完善的游戏符文buff机制。
 * 利用跨平台*irrKlang*库让我们能听见游戏声音了。
-* 利用*freetype*库，通过预渲染字形的RED纹理至TextureBuffer，将RED纹理在fragmentshader中视着ALPHA纹理，让我们的游戏实现了文字（ASSIC码）渲染。当然，通过与渲染的方式，挺适合ASSIC码的，但对于有上万字符的中文，来说好不好实现我还没有试验（估计没戏）。
+* 利用*freetype*库，通过预渲染字形的RED纹理至TextureBuffer，将RED纹理在fragmentshader中视着ALPHA纹理，让我们的游戏实现了文字（ASSIC码）渲染。当然，预渲染的方式挺适合ASSIC码的，但对于有上万字符的中文来说好不好实现我还没有试验（估计没戏）。
 
 ## 预览 ##
 
